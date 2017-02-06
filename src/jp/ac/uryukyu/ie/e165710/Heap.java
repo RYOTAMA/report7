@@ -17,7 +17,7 @@ public class Heap {
         }
         while(x>0){
             Swap swap = new Swap();
-            swap.main(A,1,x);
+            swap.Swap(A,1,x);
             x--;
             Down down = new Down();
             down.Down(A,1,y);

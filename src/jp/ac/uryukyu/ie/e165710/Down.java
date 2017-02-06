@@ -15,7 +15,7 @@ public class Down {
                 break;
             }
             Swap swap = new Swap();
-            swap.main(A,x,y);
+            swap.Swap(A,x,y);
             y=j;
             j=y*2;
         }

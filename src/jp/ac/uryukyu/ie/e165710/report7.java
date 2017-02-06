@@ -1,6 +1,4 @@
 package jp.ac.uryukyu.ie.e165710;
-import jp.ac.uryukyu.ie.e165710.Swap;
-import jp.ac.uryukyu.ie.e165710.Down;
 import jp.ac.uryukyu.ie.e165710.Heap;
 
 public class report7 {
