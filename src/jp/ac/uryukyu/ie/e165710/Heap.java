@@ -6,7 +6,7 @@ import jp.ac.uryukyu.ie.e165710.Swap;
  * Created by e165710 on 2017/02/06.
  */
 public class Heap {
-    public static void main(int[] A){
+    public static void Heap(int[] A){
         int n=10;
         int x=n;
         int y=n/2;

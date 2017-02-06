@@ -1,7 +1,7 @@
 package jp.ac.uryukyu.ie.e165710;
 import jp.ac.uryukyu.ie.e165710.Heap;
 
-public class report7 {
+public class Main {
     public static void main(String[] args) {
         int i;
         int n = 10;
@@ -12,7 +12,7 @@ public class report7 {
         }
 
         Heap heap = new Heap();
-        heap.main(A);
+        heap.Heap(A);
 
         System.out.println("ソート済みデータ : ");
         for (i = 0; i <= n; i++) {
