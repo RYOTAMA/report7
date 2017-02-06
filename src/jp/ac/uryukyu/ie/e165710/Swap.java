@@ -6,5 +6,6 @@ public class Swap {
         tmp=A[x];
         A[x]=A[y];
         A[y]=tmp;
+        return;
     }
 }
