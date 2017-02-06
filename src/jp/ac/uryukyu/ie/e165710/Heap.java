@@ -1,13 +1,13 @@
 package jp.ac.uryukyu.ie.e165710;
 import jp.ac.uryukyu.ie.e165710.Down;
 import jp.ac.uryukyu.ie.e165710.Swap;
+import jp.ac.uryukyu.ie.e165710.Data;
 
-/**
- * Created by e165710 on 2017/02/06.
- */
 public class Heap {
-    public static void Heap(int[] A){
+    public static void Heap(){
+        Data data = new Data();
         int n=10;
+        int A[] = {2, 1, 7, 4, 9, 6, 0, 3, 5, 8};
         int x=n;
         int y=n/2;
         while(y>0){
