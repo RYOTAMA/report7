@@ -1,10 +1,9 @@
 package jp.ac.uryukyu.ie.e165710;
 
 public class Heap {
-    public static void Heap(int[] A,int x,int y){
-        int n=10;
-        x=n;
-        y=n/2;
+    public static void Heap(int[] A,int n){
+        int x=n;
+        int y=n/2;
         while(y>0){
             Down down = new Down();
             down.Down(A,x,y);
@@ -17,6 +16,5 @@ public class Heap {
             Down down = new Down();
             down.Down(A,x,1);
         }
-        return;
     }
 }

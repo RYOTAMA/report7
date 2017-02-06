@@ -12,10 +12,9 @@ public class Main {
         for (i = 0; i <= n-1; i++) {
             System.out.println("データ" + (i + 1) + " : " + A[i]);
         }
-        int x=n;
-        int y=n/2;
+
         Heap heap = new Heap();
-        heap.Heap(A,x,y);
+        heap.Heap(A,n);
 
         System.out.println("ソート済みデータ : ");
         for (i = 0; i <= n-1; i++) {
